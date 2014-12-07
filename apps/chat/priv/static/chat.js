@@ -1,7 +1,7 @@
 var socket;
 
 function add_message(message) {
-    $('#messages').append('<p></p>').children().last().text(message);
+    $('#messages').append('<li></li>').children().last().text(message);
 }
 
 function read_message_input() {
@@ -13,7 +13,7 @@ function connect_to_chat() {
     socket = new WebSocket("ws://localhost:8080/ws");
 
     socket.onopen = function() {
-        add_message("Connected.")
+        add_message("Connected #yolo.")
     };
 
     socket.onmessage = function(event) {
