@@ -1,4 +1,4 @@
-Cowboy chat tutorial
+Cowboy chat tutorial - forked from hcs42
 --------------------
 
 This tutorial describes creating a very simple web chat application written in
