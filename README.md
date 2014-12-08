@@ -1,6 +1,14 @@
 Cowboy chat tutorial - forked from hcs42
 --------------------
 
+Since I'm new to the erlangs:
+
+[ ~/g/erlang-misc/ws-chat/cowboy_tutorial_webchat ]
+./rebar clean && ./rebar compile && ./rebar generate
+[ ~/g/erlang-misc/ws-chat/cowboy_tutorial_webchat ]
+./rel/chat/bin/chat stop && ./rel/chat/bin/chat start
+
+
 This tutorial describes creating a very simple web chat application written in
 Erlang, using the Cowboy web server.
 
